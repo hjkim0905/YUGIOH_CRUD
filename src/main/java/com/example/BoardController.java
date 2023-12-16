@@ -64,4 +64,11 @@ public class BoardController {
         return "redirect:../list";
     }
 
+    @RequestMapping(value = "/view/{id}", method = RequestMethod.GET)
+    public String view(@PathVariable("id") int id, Model model) {
+        BoardVO boardVO = boardService.getBoard(id);
+        model.addAttribute("card", boardVO);
+        return "view";
+    }
+
 }

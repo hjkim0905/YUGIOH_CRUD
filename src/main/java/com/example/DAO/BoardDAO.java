@@ -25,17 +25,17 @@ public class BoardDAO {
 
 
 
-	public  int insertBoard (BoardVO vo) {
+	public int insertBoard (BoardVO vo) {
 		int result = sqlSession.insert("Board.insertBoard", vo);
 		return result;
 	}
 
-	public  int deleteBoard (int registerNum) {
+	public int deleteBoard (int registerNum) {
 		int result = sqlSession.delete("Board.deleteBoard", registerNum);
 		return result;
 	}
 
-	public  int updateBoard (BoardVO vo) {
+	public int updateBoard (BoardVO vo) {
 		int result = sqlSession.update("Board.updateBoard", vo);
 		return result;
 	}
