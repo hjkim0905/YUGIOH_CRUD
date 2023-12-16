@@ -9,7 +9,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>유희왕 카드 도감</title>
   <link rel="stylesheet" href="${path}/resources/css/my.css" type="text/css">
-
     <script>
         function trueOrFalse(abc){
             var trueFalse = abc;
@@ -38,10 +37,50 @@
                 document.getElementById(def).style.color = '#FFFFFF';
             }
         }
-
-
     </script>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://c.wallhere.com/images/7e/e8/a4f5a11a4d0233b032829fdc1e09-1928639.jpg!s1');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #ffffff; /* 전체 텍스트 색상을 흰색으로 설정 */
+        }
 
+        a, label, input[type="submit"], .table th, .table td {
+            color: #ffffff; /* 링크, 레이블, 버튼, 테이블 텍스트 색상을 흰색으로 설정 */
+        }
+
+        .table {
+            width: 100%;
+            max-width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            background-color: rgba(0, 0, 0, 0.5); /* 테이블 배경색을 반투명 검정색으로 설정 */
+        }
+
+        .table th, .table td {
+            padding: 12px; /* 셀의 패딩을 늘려 셀의 크기를 더 크게 만듦 */
+        }
+
+        .table th {
+            background-color: rgba(0, 0, 0, 0.7); /* 테이블 헤더 배경색을 더 어둡게 설정 */
+        }
+
+        .table tbody tr:hover {
+            background-color: rgb(100, 100, 97); /* 호버 시 배경색 변경 */
+        }
+
+        input[type="button"]:hover, a:hover {
+            background-color: #b4a0a0; /* 호버 버튼 배경색 변경 */
+        }
+
+        input[type="text"], input[type="password"], .form-control {
+            background-color: rgba(255, 255, 255, 0.8); /* 입력 필드 배경 반투명 흰색으로 설정 */
+            color: #000000; /* 입력 필드 텍스트 검정색으로 설정 */
+            border-radius: 4px; /* 입력 필드 둥근 모서리 설정 */
+        }
+    </style>
 </head>
 <div>
     <a href="login/logout" style="color: #222222; text-decoration: none">Log Out</a>
@@ -72,6 +111,7 @@
               <th>몬스터 카드 여부</th>
               <th>효과 카드 여부</th>
               <th>삭제&nbsp;</th>
+              <th>상세</th>
             </tr>
         </thead>
         <tbody>
@@ -86,6 +126,7 @@
               <td><script>trueOrFalse(${u.isMonsterCard});</script></td>
               <td><script>trueOrFalse(${u.isEffectCard});</script><script>bg_color(${u.isEffectCard}, ${u.registerNum})</script></td>
               <td><a href="javascript:delete_ok('${u.registerNum}')" style="color: #222222; text-decoration: none">Delete</a></td>
+              <td><a href="view/${u.registerNum}" style="color: #222222; text-decoration: none">상세보기</a></td>
             </tr>
             </c:forEach>
         </tbody>
