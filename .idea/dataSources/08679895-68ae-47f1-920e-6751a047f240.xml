@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@walab.handong.edu">
   <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.49">
-    <root id="1">
-      <DefaultCasing>exact</DefaultCasing>
-      <DefaultEngine>InnoDB</DefaultEngine>
-      <Grants>p231_22100233|schema||p231_22100233||ALTER|G
-p231_22100233|schema||p231_22100233||ALTER ROUTINE|G
-p231_22100233|schema||p231_22100233||CREATE|G
-p231_22100233|schema||p231_22100233||CREATE ROUTINE|G
-p231_22100233|schema||p231_22100233||CREATE TEMPORARY TABLES|G
-p231_22100233|schema||p231_22100233||CREATE VIEW|G
-p231_22100233|schema||p231_22100233||DELETE|G
-p231_22100233|schema||p231_22100233||DROP|G
-p231_22100233|schema||p231_22100233||EVENT|G
-p231_22100233|schema||p231_22100233||EXECUTE|G
-p231_22100233|schema||p231_22100233||INDEX|G
-p231_22100233|schema||p231_22100233||INSERT|G
-p231_22100233|schema||p231_22100233||LOCK TABLES|G
-p231_22100233|schema||p231_22100233||REFERENCES|G
-p231_22100233|schema||p231_22100233||SELECT|G
-p231_22100233|schema||p231_22100233||SHOW VIEW|G
-p231_22100233|schema||p231_22100233||TRIGGER|G
-p231_22100233|schema||p231_22100233||UPDATE|G</Grants>
-      <ServerVersion>10.1.48</ServerVersion>
-    </root>
+    <root id="1"/>
     <collation id="2" parent="1" name="armscii8_bin">
       <Charset>armscii8</Charset>
     </collation>

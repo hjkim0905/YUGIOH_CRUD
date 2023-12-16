@@ -12,7 +12,19 @@
     <link rel="stylesheet" href="${path}/resources/css/my.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-
+    <style>
+        body {
+            background-image:
+                    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                    url('https://www.themoviedb.org/t/p/original/nZMhQrVEOe9iKAdTB4lE1zlWSRj.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        a, label, input[type="submit"] {
+            color: #ffffff; /* 링크, 레이블, 버튼 텍스트 색상도 흰색으로 설정 */
+        }
+    </style>
 </head>
 <body>
 <div id="header" style="margin-top: 3%">
@@ -54,3 +66,6 @@
 </div>
 </body>
 </html>
+
+
+

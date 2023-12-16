@@ -38,9 +38,21 @@
                 });
             }, false);
         })();
-
-
     </script>
+    <style>
+        body {
+            background-image:
+                    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                    url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZrsxy_PToE8toIHSjf7EL7cSzt3BkbbgYULlIPV5VCg&s');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #ffffff;
+        }
+        a, label, input[type="submit"] {
+            color: #ffffff; /* 링크, 레이블, 버튼 텍스트 색상도 흰색으로 설정 */
+        }
+    </style>
 </head>
 <body>
 
