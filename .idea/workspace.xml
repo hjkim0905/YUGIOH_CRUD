@@ -9,20 +9,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="356ba459-c263-455b-82d0-3cf7c458e713" name="Changes" comment="[Fix] 수정하기 페이지 500오류 해결 및 수정하기 페이지 CSS수정">
       <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+=======
+    <list default="true" id="356ba459-c263-455b-82d0-3cf7c458e713" name="Changes" comment="">
+>>>>>>> e6326e6 (231216 : 변경사항 저장)
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/08679895-68ae-47f1-920e-6751a047f240.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08679895-68ae-47f1-920e-6751a047f240.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/511f23df-c5e9-4df0-b594-c21c735b65f6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/511f23df-c5e9-4df0-b594-c21c735b65f6/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/511f23df-c5e9-4df0-b594-c21c735b65f6/storage_v2/_src_/schema/p3_21901026.Na4gog.meta" beforeDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> e6326e6 (231216 : 변경사항 저장)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +84,10 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+<<<<<<< HEAD
     "settings.editor.selected.configurable": "database.query.execution",
+=======
+>>>>>>> e6326e6 (231216 : 변경사항 저장)
     "spring.configuration.checksum": "11c905c5873d1567eede6a85a002aba1",
     "vue.rearranger.settings.migration": "true"
   },
@@ -209,6 +220,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702653809731</updated>
+<<<<<<< HEAD
       <workItem from="1702653810804" duration="10647000" />
       <workItem from="1702666920525" duration="251000" />
       <workItem from="1702667176861" duration="2315000" />
@@ -223,6 +235,10 @@
       <workItem from="1702674164657" duration="698000" />
       <workItem from="1702674899806" duration="6552000" />
       <workItem from="1702703105175" duration="3684000" />
+=======
+      <workItem from="1702653810804" duration="11335000" />
+      <workItem from="1702667494332" duration="384000" />
+>>>>>>> e6326e6 (231216 : 변경사항 저장)
     </task>
     <task id="LOCAL-00001" summary="[Fix] 수정하기 페이지 500오류 해결 및 수정하기 페이지 CSS수정">
       <option name="closed" value="true" />
